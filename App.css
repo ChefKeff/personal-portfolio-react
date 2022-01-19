@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&family=Zen+Antique&display=swap");
+header {
+  background-color: #f2f47cff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 7.5vh;
+}
+
+.nameDiv {
+  font-family: "Shippori Antique";
+  font-size: calc(10px + 2vmin);
+  height: 100%;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  margin-left: 1vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.langBtnDiv {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.langBtn {
+  justify-self: center;
+  background-color: #f2f47cff;
+  color: black;
+  font-family: "Shippori Antique";
+  border: none;
+  font-size: calc(8px + 1vmin);
+  transition-duration: 0.4s;
+  width: 33%;
+  height: 100%;
+  margin-right: -1vw;
+}
+
+.langBtn:hover {
+  background-color: black;
+  color: #f2f47cff;
+}
+
+.sideMenuHolder {
+  display: flex;
+}
+
+.sideMenuList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 28vw;
+  height: fit-content;
+  background-color: #f2f47cff;
+}
+
+.sideMenuList span {
+  display: flex;
+  align-content: center;
+  transition-duration: 0.4s;
+  width: 28vw;
+  height: 7vh;
+}
+
+.sideMenuList button {
+  border: none;
+  background-color: #f2f47cff;
+  font-size: calc(10px + 1vmin);
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  font-family: "Shippori Antique";
+  transition-duration: 0.4s;
+  width: 28vw;
+  padding-left: 1vw;
+  height: 7vh;
+}
+
+.sideMenuList button:hover {
+  background-color: black;
+  color: #f2f47cff;
+}
+
+#main {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.mainContent h3 {
+  font-family: "Zen Antique";
+}
