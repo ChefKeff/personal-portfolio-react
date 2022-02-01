@@ -54,8 +54,8 @@ header {
   list-style: none;
   display: flex;
   flex-direction: column;
-  width: 28vw;
-  height: fit-content;
+  width: 15vw;
+  height: 80vh;
   background-color: #f2f47cff;
 }
 
@@ -63,20 +63,20 @@ header {
   display: flex;
   align-content: center;
   transition-duration: 0.4s;
-  width: 28vw;
+  width: 15vw;
   height: 7vh;
 }
 
 .sideMenuList button {
   border: none;
   background-color: #f2f47cff;
-  font-size: calc(10px + 1vmin);
+  font-size: calc(9px + 1vmin);
   color: black;
   text-align: left;
   text-decoration: none;
   font-family: "Shippori Antique";
   transition-duration: 0.4s;
-  width: 28vw;
+  width: 15vw;
   padding-left: 1vw;
   height: 7vh;
 }
@@ -93,8 +93,55 @@ header {
 .mainContent {
   margin-left: 1vw;
   margin-right: 1vw;
+  height: 80vh;
+  overflow-y: scroll;
 }
 
-.mainContent h3 {
-  font-family: "Zen Antique";
+#welcomeCont {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  height: 40vh;
+  overflow-y: scroll;
+}
+
+.mainContent h2 {
+  font-family: "Shippori Antique";
+  font-size: calc(10px + 2vmin);
+}
+
+#picOfMeDiv {
+  background-image: url("./pics/itsame.jpg");
+  background-size: cover;
+  height: 40vh;
+}
+
+.mainContent p {
+  font-family: "Shippori Antique";
+  font-size: calc(5px + 2vmin);
+}
+
+footer {
+  background-color: black;
+  height: 12.5vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+#footerDiv {
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.footerLink {
+  font-family: "Shippori Antique";
+  font-size: calc(5px + 2vmin);
+  text-decoration: none;
+  color: white;
+  margin-top: 6vh;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
 }

@@ -2,10 +2,10 @@ export function setLang(lang) {
     let langJson = {};
     if(lang === 'se') {
         langJson = {
-            'aboutTitle': 'om mig',
-            'workTitle': 'arbete',
-            'eduTitle': 'utbildning',
-            'otherTitle': 'andra meriter',
+            'aboutTitle': 'jag',
+            'workTitle': 'jobb',
+            'eduTitle': 'skola',
+            'otherTitle': 'annat',
             'mediaTitle': 'media',
             'contactTitle': 'kontakt',
             'workListUl': `<li>  
