@@ -1,0 +1,33 @@
+#me {
+  height: 100%;
+  width: auto;
+  background-image: url("../pics/itsame.jpg");
+  background-position-x: center;
+  background-position-y: -30vh;
+}
+
+.outerDiv {
+  display: grid;
+  grid-auto-rows: 85% 15%;
+}
+
+.mainContent {
+  align-items: end;
+  height: auto;
+}
+
+.txt {
+  height: 10%;
+}
+
+@media screen and (max-width: 730px) {
+  .outerDiv {
+    display: grid;
+    grid-auto-rows: 60% 40%;
+  }
+  .mainContent {
+    align-items: start;
+    margin-top: 16%;
+    height: auto;
+  }
+}

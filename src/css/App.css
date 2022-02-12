@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&family=Zen+Antique&display=swap");
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 7.5vh;
+}
+
+.nameDiv {
+  font-family: "Shippori Antique";
+  font-size: calc(10px + 2vmin);
+  height: 100%;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  margin-left: 1vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 3vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+#footerDiv {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#main {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.footerLink {
+  font-family: "Shippori Antique";
+  font-size: calc(2vmin);
+  text-decoration: none;
+  color: black;
+  margin-top: 9vh;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
