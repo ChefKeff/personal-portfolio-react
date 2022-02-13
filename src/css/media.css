@@ -1,0 +1,42 @@
+#spotifyFrame {
+  width: 60%;
+  height: 40vh;
+}
+
+#soundcloudFrame {
+  width: 60%;
+  height: 40vh;
+}
+
+.mainMedia {
+  display: flex;
+  align-content: space-between;
+  width: 100vw;
+}
+
+#mediaDiv {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+iframe {
+  border: none;
+}
+
+@media screen and (min-width: 730px) {
+  .mainMedia {
+    display: flex;
+    align-content: space-between;
+    width: 80vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mainMedia {
+    display: flex;
+    align-content: space-between;
+    width: 40vw;
+  }
+}

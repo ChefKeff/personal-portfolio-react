@@ -12,6 +12,11 @@
 }
 
 .mainContent {
+  /* align-items: end; */
+  height: auto;
+}
+
+#welcomeCont {
   align-items: end;
   height: auto;
 }
@@ -27,7 +32,6 @@
   }
   .mainContent {
     align-items: start;
-    margin-top: 16%;
     height: auto;
   }
 }

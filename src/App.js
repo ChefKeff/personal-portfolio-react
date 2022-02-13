@@ -1,15 +1,19 @@
-import * as language from "./language.js";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  Browser,
+} from "react-router-dom";
 import "./css/App.css";
 import Work from "./work";
 import Welcome from "./welcome";
 import Menu from "./menu";
 import Education from "./education";
 import Merits from "./merits";
-
-let textJson = language.setLang("se");
-export { textJson };
+import Media from "./media";
+import Contact from "./contact";
 
 function App() {
   return (
@@ -27,6 +31,8 @@ function App() {
             <Route path="/work" element={<Work />} />
             <Route path="/education" element={<Education />} />
             <Route path="/merits" element={<Merits />} />
+            <Route path="/media" element={<Media />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </div>

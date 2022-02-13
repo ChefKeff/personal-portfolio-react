@@ -1,0 +1,55 @@
+#mainContact {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+#contactListDiv {
+  display: flex;
+  height: 50vh;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+#submitBtn {
+  background-color: white;
+  border-color: black;
+  border-width: thin;
+  font-family: "Shippori Antique";
+  height: 10%;
+  transition: ease-in-out 0.4s;
+}
+
+#submitBtn:hover {
+  background-color: black;
+  border-color: black;
+  border-width: thin;
+  font-family: "Shippori Antique";
+  color: white;
+  height: 10%;
+}
+
+#formDiv {
+  display: flex;
+  height: 50vh;
+  justify-content: end;
+  flex-direction: column;
+  line-height: inherit;
+}
+
+#formDiv p {
+  display: flex;
+  min-height: auto;
+  height: auto;
+  flex-direction: column;
+  line-height: inherit;
+  padding: 0;
+}

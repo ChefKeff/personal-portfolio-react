@@ -3,8 +3,11 @@
   overflow-x: hidden;
   scrollbar-width: 0px;
   height: 80vh;
+  align-items: start;
 }
 
-#workUl {
-  padding-top: 5vh;
+li span {
+  line-height: inherit;
+  white-space: break-spaces;
+  line-height: inherit;
 }
