@@ -30,11 +30,11 @@ class Media extends Component {
             be published to streaming services as they are displayed here. To
             hear finished productions, please refer to the Spotify playlist
             referenced in the widget above.
-          </span>
           <iframe
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1294500388&amp;color=%23b7ccc1&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
             id="soundcloudFrame"
           ></iframe>
+      </span>
         </div>
       </div>
     );
