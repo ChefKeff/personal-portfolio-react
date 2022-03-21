@@ -1,13 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&family=Zen+Antique&display=swap");
-
 body {
   margin: 0;
   padding: 0;
-  font-family: "Shippori Antique";
+  font-family: "ClashGrotesk-Variable";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  text-decoration: none;
+  color: white;
+  background-color: rgb(20, 20, 20);
 }

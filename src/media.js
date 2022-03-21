@@ -1,17 +1,14 @@
 import React, { Component } from "react";
-import "./css/infopage.css";
 import "./css/media.css";
 
 class Media extends Component {
   render() {
     return (
-      <div className="mainContent mainMedia">
+      <div className="mainContent">
         <div id="mediaDiv">
-          <iframe
-            src="https://open.spotify.com/embed/playlist/6G2fuRZqoI5MKXFooHqTs9?theme=0"
-            id="spotifyFrame"
-          ></iframe>
-          <span id="spotTxt">
+          <span>
+            <p>MEDIA</p>
+            <br></br>
             <b>SPOTIFY</b>
             <br></br>
             This is a selection of songs that I have worked on which have been
@@ -20,10 +17,11 @@ class Media extends Component {
             alongside other VSTs for mixing and producing. I am also well
             farmiliar with Analog Lab and similar VSTis used in audio
             production.
-          </span>
-        </div>
-        <div id="mediaDiv">
-          <span id="scText">
+            <iframe
+              src="https://open.spotify.com/embed/playlist/6G2fuRZqoI5MKXFooHqTs9?theme=0"
+              id="spotifyFrame"
+            ></iframe>
+            <br></br>
             <b>BEATS</b>
             <br></br>
             Here you can find a selection of my beats without vocals. The beats

@@ -1,17 +1,13 @@
-#mainContact {
-  display: grid;
-  grid-template-columns: 30% 70%;
+li {
+  list-style: none;
 }
 
-#contactListDiv {
-  display: flex;
-  height: 50vh;
-  justify-content: flex-start;
-  align-items: center;
+ul {
+  padding: 0;
 }
 
 li a {
-  color: black;
+  color: rgb(206, 206, 206);
   text-decoration: none;
 }
 
@@ -19,37 +15,25 @@ li a:hover {
   text-decoration: underline;
 }
 
-#submitBtn {
-  background-color: white;
-  border-color: black;
-  border-width: thin;
-  font-family: "Shippori Antique";
-  height: 10%;
-  transition: ease-in-out 0.4s;
-}
-
-#submitBtn:hover {
-  background-color: black;
-  border-color: black;
-  border-width: thin;
-  font-family: "Shippori Antique";
-  color: white;
-  height: 10%;
-}
-
-#formDiv {
-  display: flex;
-  height: 50vh;
-  justify-content: end;
-  flex-direction: column;
-  line-height: inherit;
-}
-
-#formDiv p {
+#formDiv div {
   display: flex;
   min-height: auto;
   height: auto;
   flex-direction: column;
   line-height: inherit;
   padding: 0;
+}
+
+#contactSpan {
+  width: 100%;
+}
+
+#submit {
+  border: none;
+  background-color: rgb(255, 255, 140);
+  color: rgb(20, 20, 20);
+  width: 100%;
+  font-family: "ClashGrotesk-Bold";
+  height: 4vh;
+  margin-top: 3%;
 }

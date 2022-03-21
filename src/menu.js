@@ -1,42 +1,35 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import "./css/text.scss";
+import { NavLink } from "react-router-dom";
+import "./css/text.css";
 
 class Menu extends Component {
   render() {
     return (
-      <ul className="Words highlighted">
-        <li className="Words-line background-slide">
-          <Link className="linkHeading" to={"/me"}>
-            about me
-          </Link>
-        </li>
-        <li className="Words-line background-slide">
-          <Link className="linkHeading" to={"/work"}>
-            work
-          </Link>
-        </li>
-        <li className="Words-line background-slide">
-          <Link className="linkHeading" to={"/education"}>
-            education
-          </Link>
-        </li>
-        <li className="Words-line background-slide">
-          <Link className="linkHeading" to={"/merits"}>
-            other merits
-          </Link>
-        </li>
-        <li className="Words-line background-slide">
-          <Link className="linkHeading" to={"/media"}>
-            media
-          </Link>
-        </li>
-        <li className="Words-line background-slide">
-          <Link className="linkHeading" to={"/contact"}>
-            contact
-          </Link>
-        </li>
-      </ul>
+      <div className="mainMenu">
+        <NavLink
+          className="linkHeading"
+          id="abt"
+          onMouseenter={(this.bgColor = "black")}
+          to={"/me"}
+        >
+          about <span id="meTxt">me</span>
+        </NavLink>
+        <NavLink className="linkHeading" id="wrk" to={"/work"}>
+          work & experience
+        </NavLink>
+        <NavLink className="linkHeading" id="edu" to={"/education"}>
+          education
+        </NavLink>
+        <NavLink className="linkHeading" id="edu" to={"/merits"}>
+          other merits
+        </NavLink>
+        <NavLink className="linkHeading" id="media" to={"/media"}>
+          media
+        </NavLink>
+        <NavLink className="linkHeading" id="cont" to={"/contact"}>
+          contact
+        </NavLink>
+      </div>
     );
   }
 }
