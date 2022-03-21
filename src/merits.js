@@ -13,21 +13,17 @@ class Merits extends Component {
           N1 level.
           <br></br>
           <b>DEVELOPMENT </b>
-          <i>Front end </i>- JavaScript, ReactJS, TypeScript, Vue, HTML, CSS
-          <i>Back end </i>- SQLServer, MySQL, NodeJS
-          <i>Other languages </i>- Python, R, Matlab, Java
-          <br></br>
+          <i>Front end </i>- JavaScript, ReactJS, TypeScript, Vue, HTML, CSS |
+          <i> Back end </i>- SQLServer, MySQL, NodeJS |<i> Other languages </i>-
+          Python, R, Matlab, Java |<br></br>
           <b>MUSIC PRODUCTION </b>
           <i>Software </i>- Ableton Live, FL Studio, Native Instruments Traktor,
-          UAD Console, Melodyne
-          <i>Hardware </i>- UAD Hardware (Apollo Twin), Tascam racks, mixer
-          knowledge
-          <br></br>
+          UAD Console, Melodyne |<i> Hardware </i>- UAD Hardware (Apollo Twin),
+          Tascam racks, mixer knowledge |<br></br>
           <b>VOLUNTEERING </b> <br></br>
           <i>Engineers Without Borders Sweden</i> <br></br>
           Active in the Uppsala managing group. Head of The Reflective Engineer,
-          managing a team of around 8 people.
-          <br></br>
+          managing a team of around 8 people.<br></br>
           <i>UTN - Faculty Student Union</i>
           <br></br>
           Fadderkå. Responsible for the buddy-program for one of the engineering

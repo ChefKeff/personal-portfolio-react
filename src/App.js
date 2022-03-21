@@ -21,30 +21,71 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="header sticky" id="header">
+        <header className="header sticky transparentHeader" id="header">
           <div id="headerDiv">
-            <Hamburger
-              onToggle={(toggled) => {
-                if (toggled) {
-                  if (
+            <div id="burgerWrap">
+              <Hamburger
+                onToggle={(toggled) => {
+                  if (toggled) {
+                    if (
+                      document
+                        .getElementById("mainMenu")
+                        .classList.contains("hideMenu")
+                    ) {
+                      document
+                        .getElementById("mainMenu")
+                        .classList.remove("hideMenu");
+                      document
+                        .getElementById("header")
+                        .classList.remove("transparentHeader");
+                      document
+                        .getElementById("headerName")
+                        .classList.remove("blackName");
+                    }
                     document
                       .getElementById("mainMenu")
-                      .classList.contains("hideMenu")
-                  )
+                      .classList.add("showMenu");
+                    document
+                      .getElementById("header")
+                      .classList.add("yellowHeader");
+                    document
+                      .getElementById("headerName")
+                      .classList.add("blackName");
+                    document.getElementById("burgerWrap").style.color = "black";
+                    document.getElementById(
+                      "burgerWrap"
+                    ).style.transitionDuration = "0.5s";
+                  } else {
                     document
                       .getElementById("mainMenu")
-                      .classList.remove("hideMenu");
-                  document.getElementById("mainMenu").classList.add("showMenu");
-                } else {
-                  document
-                    .getElementById("mainMenu")
-                    .classList.remove("showMenu");
-                  document.getElementById("mainMenu").classList.add("hideMenu");
-                }
-              }}
-            />
+                      .classList.remove("showMenu");
+                    document
+                      .getElementById("mainMenu")
+                      .classList.add("hideMenu");
+                    document
+                      .getElementById("header")
+                      .classList.remove("yellowHeader");
+                    document
+                      .getElementById("headerName")
+                      .classList.remove("blackName");
+                    document
+                      .getElementById("header")
+                      .classList.add("transparentHeader");
+                    document
+                      .getElementById("headerName")
+                      .classList.add("yellowName");
+                    document.getElementById("burgerWrap").style.color = "white";
+                    document.getElementById(
+                      "burgerWrap"
+                    ).style.transitionDuration = "0.5s";
+                  }
+                }}
+              />
+            </div>
             <Link to={"/"}>
-              <div className="nameDiv">niklas norinder</div>
+              <div id="headerName" className="nameDiv yellowName">
+                niklas norinder
+              </div>
             </Link>
           </div>
           <div id="mainMenu" className="hideMenu">
