@@ -10,7 +10,7 @@ class Work extends Component {
         <div id="main">
           <div className="mainContent mainList">
             <span>
-              <p>WORK EXPERIENCE</p> <br></br>
+              <p>WORK & EXPERIENCE</p> <br></br>
               <b>Teaching Assistant (programming) - Uppsala University </b>
               Helping students with understanding and writing code in Python and
               Java. Part-time during my studies. <i>January 2022 - Present </i>
