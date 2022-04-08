@@ -35,11 +35,11 @@ class Merits extends Component {
               volunteers and 90 new students. In an event reaching more than
               1200 people.
               <br></br>
-              {/* <b>Scholarships</b>
+              <b>Scholarships</b>
               <br></br>I have recieved scholarships from Sweden-Japan
               foundation, Anna Whitlocks Minnesfond & Anna och Edwin Bergers
               stiftelse for my upcoming studies in Japan. Thank you for
-              believing in me! :) */}
+              believing in me! :)
             </span>
           </div>
         </div>
